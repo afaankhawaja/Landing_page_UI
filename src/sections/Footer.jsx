@@ -14,15 +14,15 @@ export const Footer = () => {
     {/* Logo and Social Icons */}
     <div className="flex md:flex-col justify-between content-start space-y-4 pr-4 mb-8 md:mb-0">
       {/* Logo */}
-      <div className="items-center content-end">
+      <div className="items-center justify-center pt-2 md:content-end">
         <Image src={logokit1} alt="" />
       </div>
       
       {/* Social Icons */}
       <div className="flex justify-center md:space-x-6 space-x-4">
-        <Image src={x} className="w-5 h-7"/>
-        <Image src={instagram} className="w-8 h-8"/>
-        <Image src={youtube} className="w-8 h-8"/>
+        <Image src={x} className="md:w-5 md:h-7 w-5 h-5" alt=""/>
+        <Image src={instagram} className="w-5 h-5 md:w-8 md:h-8" alt=""/>
+        <Image src={youtube} className="w-5 h-5 md:w-8 md:h-8" alt=""/>
 
           </div>
     </div>
