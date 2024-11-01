@@ -74,7 +74,7 @@ export const Features = () => {
         <div className="ml-[50px] mr-[20px] md:flex flex-wrap md:gap-x-[60px] md:gap-y-[40px] md:mr-0">
         {tabs.map((tab) => (
           
-          <div className="my-[40px] md:w-[305px] lg:w-[322px]  key={tab.title}">
+          <div className="my-[40px] md:w-[305px] lg:w-[322px]" key={tab.title}>
             <div className="flex flex-row gap-1 lg:gap-2 items-center py-[10px]">
               <DotLottiePlayer className="w-5 h-5" src={tab.icon} autoplay />
               <span className="font-medium leading-loose">{tab.title}</span>
