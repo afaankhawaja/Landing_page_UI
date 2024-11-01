@@ -3,8 +3,6 @@ import Image from 'next/image'
 import Visual from '../assets/Visual.png'
 import app1 from '../assets/app1.png'
 import app3 from '../assets/app3.png'
-
-import Visual3 from '../assets/Visual3.png'
 import Visual4 from '../assets/Visual4.png'
 import Rectangle9 from '../assets/Rectangle9.png'
 
@@ -38,24 +36,6 @@ export const Bento = () => {
                                 <p>Helps you set and achieve SEO goals with guided assistance.</p>
                             </div>
                         </div>
-                        
-                        {/* <div className='relative md:top-4 h-[400px]  md:w-2/3 rounded-lg border-none mt-4'>
-                            <Image
-                                src={app1}
-                                alt=''
-                                className='content-center absolute md:ml-[55px] pt-[30px] inset-0 brightness-110'
-                                
-                            />
-                            <div className='absolute h-[400px] z-10 md:bottom-8 left-4 pl-2 md:mr-[126px]'>
-                                <h5 className='text-xl font-medium dark:text-white'>
-                                    user-friendly dashboard
-                                </h5>
-                                <p className='py-3 text-white/70'>
-                                    Perform complex SEO audits and optimizations with a single click.
-                                </p>
-                            </div>
-                            <Image src={Rectangle9} alt='' className='absolute inset-0'/>
-                        </div> */}
                         <div className='relative h-[400px] md:top-4 rounded-lg mt-8 md:w-2/3'>
                             <div className=''>
                             <Image
@@ -110,7 +90,7 @@ export const Bento = () => {
                                     Visual Reports
                                 </h5>
                                 <p className='py-3 text-white/70'>
-                                Visuals insights into your sites's perfromance
+                                Visuals insights into your sites perfromance
                                 </p>
                             </div>
                             </div>
